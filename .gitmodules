@@ -46,3 +46,7 @@
 [submodule ".vim/bundle/JavaScript-Indent"]
         path = .vim/bundle/JavaScript-Indent
         url = https://github.com/vim-scripts/JavaScript-Indent.git
+
+[submodule "zsh-syntax-highlighting"]
+	path = .zsh/lib/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
