@@ -87,3 +87,5 @@ let g:ctrlp_custom_ignore = {
 
 let g:erlangCheckFile = "~/.vim/bundle/vimerl/compiler/erlang_check_file.erl"
 let g:erlangHighlightErrors = 1
+
+au BufRead,BufNewFile *.tex setlocal textwidth=80
