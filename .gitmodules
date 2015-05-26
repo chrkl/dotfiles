@@ -59,3 +59,6 @@
         path = .zsh/lib/zsh-syntax-highlighting
         url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 
+[submodule ".vim/bundle/vim-scala"]
+	path = .vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
