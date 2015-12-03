@@ -4,7 +4,7 @@ export ZSH=~/.zsh
 for config_file ($ZSH/lib/*.zsh) source $config_file
 
 # Load additional site-functions (e.g. installed by brew)
-export FPATH=/usr/local/share/zsh/site-functions:$FPATH
+export FPATH=/usr/local/share/zsh/site-functions:/usr/local/share/zsh-completions:$FPATH
 
 # Load and run compinit
 autoload -U compinit
