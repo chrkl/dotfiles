@@ -88,3 +88,6 @@ let g:erlangCheckFile = "~/.vim/bundle/vimerl/compiler/erlang_check_file.erl"
 let g:erlangHighlightErrors = 1
 
 au BufRead,BufNewFile *.tex setlocal textwidth=80
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
