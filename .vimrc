@@ -8,7 +8,11 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-color solarized
+set background=dark
+if !has('gui_running')
+    let g:solarized_termtrans=1
+endif
+colorscheme solarized
 
 " Add line numbers
 set number
