@@ -95,3 +95,6 @@ au BufRead,BufNewFile *.tex setlocal textwidth=80
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+set pastetoggle=<F2>
+
