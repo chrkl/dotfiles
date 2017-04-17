@@ -1,6 +1,9 @@
 set nocompatible
 
 set clipboard=unnamed
+if !has("mac")
+set clipboard=unnamedplus
+endif
 
 " Initialize Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
