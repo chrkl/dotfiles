@@ -1,5 +1,7 @@
 set nocompatible
 
+set clipboard=unnamed
+
 " Initialize Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
@@ -97,4 +99,12 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 set pastetoggle=<F2>
+
+" Copy and paste
+if has('clipboard') && !has('gui_running')
+  vnoremap <C-c> "+y
+  vnoremap <C-x> "+d
+  vnoremap <C-v> "+p
+  inoremap <C-v> <C-r><C-o>+
+endif
 
