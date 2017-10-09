@@ -111,3 +111,4 @@ if has('clipboard') && !has('gui_running')
   inoremap <C-v> <C-r><C-o>+
 endif
 
+set mouse=a
