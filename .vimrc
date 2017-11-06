@@ -112,3 +112,9 @@ if has('clipboard') && !has('gui_running')
 endif
 
 set mouse=a
+
+" Not warning about vim version on CentOS 7
+let g:go_version_warning = 0
+
+set ignorecase
+set smartcase
