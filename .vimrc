@@ -93,9 +93,6 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.exe$\|\.so$\|\.dll\|\.beam$\|\.DS_Store$'
   \ }
 
-let g:erlangCheckFile = "~/.vim/bundle/vimerl/compiler/erlang_check_file.erl"
-let g:erlangHighlightErrors = 1
-
 au BufRead,BufNewFile *.tex setlocal textwidth=80
 
 let g:ctrlp_map = '<c-p>'

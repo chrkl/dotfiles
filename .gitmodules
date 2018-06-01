@@ -27,10 +27,6 @@
         path = .vim/bundle/supertab
         url = https://github.com/ervandew/supertab.git
 
-[submodule ".vim/bundle/vimerl"]
-        path = .vim/bundle/vimerl
-        url = https://github.com/jimenezrick/vimerl.git
-
 [submodule ".vim/bundle/markdown"]
         path = .vim/bundle/vim-markdown
         url = https://github.com/tpope/vim-markdown.git
@@ -59,9 +55,6 @@
         path = .zsh/lib/zsh-syntax-highlighting
         url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 
-[submodule ".vim/bundle/vim-scala"]
-	path = .vim/bundle/vim-scala
-	url = https://github.com/derekwyatt/vim-scala.git
 [submodule ".vim/bundle/vim-go"]
 	path = .vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
@@ -77,6 +70,4 @@
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule ".vim/bundle/vim-gocode"]
-	path = .vim/bundle/vim-gocode
-	url = https://github.com/Blackrush/vim-gocode.git
+
