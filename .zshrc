@@ -13,3 +13,5 @@ compinit -i
 if [[ -f ~/.zsh_profile ]]; then
   source ~/.zsh_profile
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
