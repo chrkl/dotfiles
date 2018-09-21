@@ -10,8 +10,6 @@ export FPATH=/usr/local/share/zsh/site-functions:/usr/local/share/zsh-completion
 autoload -U compinit
 compinit -i
 
-if [[ -f ~/.zsh_profile ]]; then
-  source ~/.zsh_profile
-fi
-
+[ -f ~/.zsh_profile ] && source ~/.zsh_profile
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
