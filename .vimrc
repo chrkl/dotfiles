@@ -115,3 +115,5 @@ let g:go_version_warning = 0
 
 set ignorecase
 set smartcase
+
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
