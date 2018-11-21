@@ -21,7 +21,9 @@ ln -sf $HOME/dotfiles/.zsh/ $HOME/
 ln -sf $HOME/dotfiles/.zshrc $HOME/
 ln -sf $HOME/dotfiles/.zlogin $HOME/
 ln -sf $HOME/dotfiles/.tmux.conf $HOME/
-ln -sf $HOME/dotfiles/.fzf/ $HOME/
+if [ -f $HOME/.fzf ]; then
+    ln -s $HOME/dotfiles/.fzf/ $HOME/
+fi
 
 $HOME/.fzf/install --all
 
