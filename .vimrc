@@ -117,3 +117,6 @@ set ignorecase
 set smartcase
 
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+nnoremap <F5> :buffers<CR>:buffer<Space>
+
