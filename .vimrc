@@ -33,6 +33,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
+set autoread
+
 " Show trailing spaces and highlight hard tabs
 set list listchars=tab:»·,trail:·
 
