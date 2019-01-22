@@ -123,3 +123,4 @@ autocmd FileType java setlocal omnifunc=javacomplete#Complete
 nnoremap <F5> :buffers<CR>:buffer<Space>
 nmap <F8> :TagbarToggle<CR>
 
+set rtp+=~/.fzf
