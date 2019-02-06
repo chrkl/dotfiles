@@ -94,17 +94,6 @@ au BufNewFile,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-" ctrp custom ignores
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.eunit$',
-  \ 'file': '\.exe$\|\.so$\|\.dll\|\.beam$\|\.DS_Store$'
-  \ }
-
-au BufRead,BufNewFile *.tex setlocal textwidth=80
-
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-
 set pastetoggle=<F2>
 
 " Copy and paste
@@ -129,3 +118,4 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 nmap <F8> :TagbarToggle<CR>
 
 set rtp+=~/.fzf
+nmap <C-p> :FZF<CR>
