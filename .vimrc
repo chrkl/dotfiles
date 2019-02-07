@@ -112,7 +112,9 @@ let g:go_version_warning = 0
 set ignorecase
 set smartcase
 
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "passive_filetypes": ["java"] }
 
 nnoremap <F5> :buffers<CR>:buffer<Space>
 nmap <F8> :TagbarToggle<CR>
