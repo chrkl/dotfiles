@@ -14,6 +14,6 @@ compinit -i
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 if [[ -n $SSH_CONNECTION && -z $TMUX ]]; then
-    tmux attach -d || tmux new
+    tmux new-session -sAD -s main
 fi
 
