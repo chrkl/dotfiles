@@ -13,6 +13,7 @@ compinit -i
 [ -f ~/.zsh_profile ] && source ~/.zsh_profile
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+alias txc="tmux show-buffer | xclip -sel clip -i"
 if [[ -n $SSH_CONNECTION && -z $TMUX ]]; then
     tmux attach -d || tmux new
 fi
