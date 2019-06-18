@@ -35,9 +35,6 @@ set expandtab
 
 set autoread
 
-" Show trailing spaces and highlight hard tabs
-set list listchars=tab:»·,trail:·
-
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
