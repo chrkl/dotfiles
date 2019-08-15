@@ -118,3 +118,5 @@ nmap <F8> :TagbarToggle<CR>
 
 set rtp+=~/.fzf
 nmap <C-p> :FZF<CR>
+
+let g:go_auto_type_info = 1
