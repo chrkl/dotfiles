@@ -120,3 +120,6 @@ set rtp+=~/.fzf
 nmap <C-p> :FZF<CR>
 
 let g:go_auto_type_info = 1
+
+let g:airline#extensions#tabline#enabled = 1
+map <C-n> :bnext<CR>
