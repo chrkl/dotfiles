@@ -23,10 +23,6 @@
         path = .vim/bundle/supertab
         url = https://github.com/ervandew/supertab.git
 
-[submodule ".vim/bundle/markdown"]
-        path = .vim/bundle/vim-markdown
-        url = https://github.com/tpope/vim-markdown.git
-
 [submodule ".vim/bundle/syntastic"]
         path = .vim/bundle/syntastic
         url = https://github.com/scrooloose/syntastic.git
@@ -58,3 +54,6 @@
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule ".vim/bundle/vim-markdown-preview"]
+	path = .vim/bundle/vim-markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview

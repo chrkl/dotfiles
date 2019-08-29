@@ -123,3 +123,8 @@ let g:go_auto_type_info = 1
 
 let g:airline#extensions#tabline#enabled = 1
 map <C-n> :bnext<CR>
+
+let vim_markdown_preview_hotkey='<C-m>'
+let vim_markdown_preview_browser='Google Chrome'
+let vim_markdown_preview_temp_file=1
+let vim_markdown_preview_github=1
