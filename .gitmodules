@@ -57,3 +57,6 @@
 [submodule ".vim/bundle/vim-markdown-preview"]
 	path = .vim/bundle/vim-markdown-preview
 	url = https://github.com/JamshedVesuna/vim-markdown-preview
+[submodule ".vim/bundle/deoplete.nvim"]
+	path = .vim/bundle/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
