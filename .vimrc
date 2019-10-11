@@ -133,3 +133,6 @@ set completeopt-=preview
 if has('nvim')
 let g:deoplete#enable_at_startup = 1
 endif
+
+inoremap            jk              <Esc>
+inoremap            kj              <Esc>
