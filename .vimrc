@@ -85,6 +85,9 @@ au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 
 au FileType java set softtabstop=2 tabstop=2 shiftwidth=2 textwidth=100 expandtab
 
+au FileType markdown set spell spelllang=en_us
+au FileType text set spell spelllang=en_us
+
 " disable backup for gopass  files
 au BufNewFile,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
 
