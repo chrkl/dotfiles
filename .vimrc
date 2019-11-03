@@ -135,6 +135,7 @@ let vim_markdown_preview_github=1
 set completeopt-=preview
 if has('nvim')
 let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*' })
 endif
 
 inoremap            jk              <Esc>
