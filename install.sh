@@ -7,7 +7,7 @@ else
 fi
 
 cd $HOME/dotfiles
-git submodule init && git submodule update
+git submodule update --init --recursive
 
 mkdir -p $HOME/.vimbackup
 mkdir -p $HOME/.config/nvim

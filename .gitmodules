@@ -66,3 +66,6 @@
 [submodule ".vim/bundle/vim-terraform-completion"]
 	path = .vim/bundle/vim-terraform-completion
 	url = https://github.com/juliosueiras/vim-terraform-completion
+[submodule ".vim/bundle/deoplete-jedi"]
+	path = .vim/bundle/deoplete-jedi
+	url = https://github.com/deoplete-plugins/deoplete-jedi
