@@ -115,6 +115,7 @@ set smartcase
 let g:syntastic_mode_map = {
     \ "mode": "active",
     \ "passive_filetypes": ["java"] }
+let g:syntastic_go_checkers = ["gofmt"]
 
 nnoremap <F5> :buffers<CR>:buffer<Space>
 nmap <F8> :TagbarToggle<CR>
