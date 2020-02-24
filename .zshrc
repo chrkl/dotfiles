@@ -18,3 +18,5 @@ if [[ -n $SSH_CONNECTION && -z $TMUX ]]; then
     tmux attach -d || tmux new
 fi
 
+alias cdd='cd $(git rev-parse --show-toplevel)'
+
