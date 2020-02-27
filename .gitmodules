@@ -69,3 +69,6 @@
 [submodule ".vim/bundle/deoplete-jedi"]
 	path = .vim/bundle/deoplete-jedi
 	url = https://github.com/deoplete-plugins/deoplete-jedi
+[submodule ".vim/bundle/dash.vim"]
+	path = .vim/bundle/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
