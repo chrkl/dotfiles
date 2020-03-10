@@ -142,3 +142,5 @@ endif
 
 inoremap            jk              <Esc>
 inoremap            kj              <Esc>
+
+map <C-d> :Dash<CR>
