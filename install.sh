@@ -22,6 +22,7 @@ ln -sf $HOME/dotfiles/.zshrc $HOME/
 ln -sf $HOME/dotfiles/.zlogin $HOME/
 ln -sf $HOME/dotfiles/.tmux.conf $HOME/
 ln -sf $HOME/dotfiles/.fzf/ $HOME/
+ln -sf $HOME/dotfiles/.functions $HOME/
 
 $HOME/.fzf/install --all
 

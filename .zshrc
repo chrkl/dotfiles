@@ -20,6 +20,7 @@ fi
 
 alias cdd='cd $(git rev-parse --show-toplevel)'
 
+[ -f $HOME/.functions ] && source $HOME/.functions
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
