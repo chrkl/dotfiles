@@ -14,10 +14,7 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-if !has('gui_running')
-    let g:solarized_termtrans=1
-endif
-colorscheme solarized
+colorscheme nord
 
 " Add line numbers
 set number
