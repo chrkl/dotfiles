@@ -66,3 +66,6 @@
 [submodule ".vim/bundle/dash.vim"]
 	path = .vim/bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
+[submodules ".vim/bundle/fzf.vim"]
+    path = .vim/bundle/fzf.vim
+    url = https://github.com/junegunn/fzf.vim.git

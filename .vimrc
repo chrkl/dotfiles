@@ -124,7 +124,8 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 nmap <F8> :TagbarToggle<CR>
 
 set rtp+=~/.fzf
-nmap <C-p> :FZF<CR>
+" nmap <C-p> :FZF<CR>
+nnoremap <silent> <C-p> :<C-u>Files<CR><C-p>
 
 let g:go_auto_type_info = 1
 
