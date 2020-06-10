@@ -85,6 +85,12 @@ au FileType java set softtabstop=2 tabstop=2 shiftwidth=2 textwidth=100 expandta
 au FileType markdown set spell spelllang=en_us
 au FileType text set spell spelllang=en_us
 
+" Fix auto-indentation for YAML files
+augroup yaml_fix
+    autocmd!
+    autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:>
+augroup END
+
 " disable backup for gopass  files
 au BufNewFile,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
 
