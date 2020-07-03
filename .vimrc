@@ -15,7 +15,7 @@ filetype plugin indent on
 
 set background=dark
 colorscheme nord
-let g:airline_theme='base16_nord'
+let g:airline_theme='nord'
 
 " Add line numbers
 set number
