@@ -81,3 +81,6 @@
 [submodule ".vim/bundle/nord-vim"]
 	path = .vim/bundle/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim
+[submodule "fubectl"]
+	path = fubectl
+	url = https://github.com/kubermatic/fubectl
