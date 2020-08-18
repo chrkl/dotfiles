@@ -152,3 +152,6 @@ inoremap            kj              <Esc>
 map <C-d> :Dash<CR>
 
 nnoremap <C-j> :%!jq .<CR>
+
+au BufRead,BufNewFile */playbooks/*.yml set filetype=yaml.ansible
+au BufRead,BufNewFile */tasks/*.yml set filetype=yaml.ansible
