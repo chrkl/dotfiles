@@ -64,7 +64,7 @@ set directory=~/.vimbackup
 
 " NERDTree configuration
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
+map <Leader>n :NERDTreeToggleVCS<CR>
 
 " make uses real tabs
 au FileType make set noexpandtab
