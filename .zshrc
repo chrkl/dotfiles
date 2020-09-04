@@ -11,6 +11,8 @@ autoload -U compinit
 compinit -i
 
 [ -f ~/.zsh_profile ] && source ~/.zsh_profile
+[ -f ~/.zsh_private ] && source ~/.zsh_private
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias txc="tmux show-buffer | xclip -sel clip -i"
