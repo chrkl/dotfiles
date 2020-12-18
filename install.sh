@@ -24,6 +24,7 @@ ln -sf $HOME/dotfiles/.tmux.conf $HOME/
 ln -sf $HOME/dotfiles/.tmux $HOME/
 ln -sf $HOME/dotfiles/.fzf/ $HOME/
 ln -sf $HOME/dotfiles/.functions $HOME/
+ln -sf $HOME/dotfiles/.dir_colors $HOME/
 
 $HOME/.fzf/install --all
 
