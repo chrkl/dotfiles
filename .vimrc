@@ -146,7 +146,7 @@ endif
 inoremap            jk              <Esc>
 inoremap            kj              <Esc>
 
-map <C-d> :Dash<CR>
+nnoremap <silent> <Leader>d :Dash<CR>
 
 nnoremap <C-j> :%!jq .<CR>
 
