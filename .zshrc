@@ -4,7 +4,7 @@ export ZSH=~/.zsh
 for config_file ($ZSH/lib/*.zsh) source $config_file
 
 # Load additional site-functions (e.g. installed by brew)
-export FPATH=/usr/local/share/zsh/site-functions:/usr/local/share/zsh-completions:$FPATH
+export FPATH=/usr/local/share/zsh/site-functions:/usr/local/share/zsh-completions:/opt/homebrew/share/zsh/site-functions:$FPATH
 
 # Load and run compinit
 autoload -U compinit
@@ -25,7 +25,7 @@ alias cdd='cd $(git rev-parse --show-toplevel)'
 [ -f $HOME/.functions ] && source $HOME/.functions
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/terraform terraform
+[ -f /usr/local/bin/terraform ] && complete -o nospace -C /usr/local/bin/terraform terraform
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
