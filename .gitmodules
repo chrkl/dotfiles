@@ -90,3 +90,6 @@
 [submodule ".vim/bundle/ale"]
 	path = .vim/bundle/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule ".vim/bundle/copilot.vim"]
+	path = .vim/bundle/copilot.vim
+	url = https://github.com/github/copilot.vim
