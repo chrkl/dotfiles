@@ -80,6 +80,7 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set f
 au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 
 au FileType java set softtabstop=2 tabstop=2 shiftwidth=2 textwidth=100 expandtab
+au FileType javascript set softtabstop=2 tabstop=2 shiftwidth=2 expandtab
 
 au FileType markdown set spell spelllang=en_us
 au FileType text set spell spelllang=en_us
