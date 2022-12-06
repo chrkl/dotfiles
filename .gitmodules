@@ -93,3 +93,6 @@
 [submodule ".vim/bundle/copilot.vim"]
 	path = .vim/bundle/copilot.vim
 	url = https://github.com/github/copilot.vim
+[submodule ".vim/bundle/vim-helm"]
+	path = .vim/bundle/vim-helm
+	url = https://github.com/towolf/vim-helm
