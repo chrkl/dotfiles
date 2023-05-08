@@ -129,6 +129,7 @@ nnoremap <silent> <C-p> :<C-u>Files<CR><C-p>
 nnoremap <silent> <Leader>f :Rg<CR>
 
 let g:go_auto_type_info = 1
+let g:go_fmt_command = "goimports"
 
 let g:airline#extensions#tabline#enabled = 1
 map <C-n> :bnext<CR>
