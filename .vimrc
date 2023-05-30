@@ -34,6 +34,9 @@ set cmdheight=2
 
 set autoread
 
+" Set relative line numbers
+set relativenumber
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
