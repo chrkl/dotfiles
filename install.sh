@@ -9,15 +9,15 @@ fi
 cd $HOME/dotfiles
 git submodule update --init --recursive
 
-mkdir -p $HOME/.vimbackup
-mkdir -p $HOME/.config/nvim
+#mkdir -p $HOME/.vimbackup
+#mkdir -p $HOME/.config/nvim
 
-ln -sf $HOME/dotfiles/.vim/ $HOME/
-ln -sf $HOME/dotfiles/.vimrc $HOME/
-ln -sf $HOME/dotfiles/.vimrc $HOME/.config/nvim/init.vim
-ln -sf $HOME/dotfiles/.vimrc $HOME/.ideavimrc
-ln -sf $HOME/dotfiles/.vim/bundle $HOME/.config/nvim/
-ln -sf $HOME/dotfiles/.vim/colors $HOME/.config/nvim/
+#ln -sf $HOME/dotfiles/.vim/ $HOME/
+#ln -sf $HOME/dotfiles/.vimrc $HOME/
+#ln -sf $HOME/dotfiles/.vimrc $HOME/.config/nvim/init.vim
+#ln -sf $HOME/dotfiles/.vimrc $HOME/.ideavimrc
+#ln -sf $HOME/dotfiles/.vim/bundle $HOME/.config/nvim/
+#ln -sf $HOME/dotfiles/.vim/colors $HOME/.config/nvim/
 ln -sf $HOME/dotfiles/.zsh/ $HOME/
 ln -sf $HOME/dotfiles/.zshrc $HOME/
 ln -sf $HOME/dotfiles/.zlogin $HOME/
