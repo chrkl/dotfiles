@@ -32,3 +32,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 [ -f ${HOME}/dotfiles/fubectl/fubectl.source ] && source ${HOME}/dotfiles/fubectl/fubectl.source
 
 export BAT_THEME=Nord
+
+export PATH="$HOME/.local/bin:$PATH"
+export HOMEBREW_NO_ASK=true
