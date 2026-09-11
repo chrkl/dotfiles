@@ -26,6 +26,7 @@ ln -sf $HOME/dotfiles/.tmux $HOME/
 ln -sf $HOME/dotfiles/.fzf/ $HOME/
 ln -sf $HOME/dotfiles/.functions $HOME/
 ln -sf $HOME/dotfiles/.dir_colors $HOME/
+ln -sf $HOME/dotfiles/.config/nvim $HOME/.config/
 
 $HOME/.fzf/install --all
 
