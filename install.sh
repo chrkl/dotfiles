@@ -29,6 +29,7 @@ ln -sf $HOME/dotfiles/.dir_colors $HOME/
 ln -sf $HOME/dotfiles/.config/nvim $HOME/.config/
 ln -sf $HOME/dotfiles/.config/bat $HOME/.config/
 ln -sf $HOME/dotfiles/.config/hunk $HOME/.config/
+ln -sf $HOME/dotfiles/.config/helix $HOME/.config/
 
 $HOME/.fzf/install --all
 
