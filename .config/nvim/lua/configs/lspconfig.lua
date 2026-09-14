@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "gopls", "golangci-lint", "rust_analyzer", "harper-ls", "basedpyright", "ruff" }
+local servers = { "html", "cssls", "gopls", "golangci-lint", "rust_analyzer", "harper-ls", "basedpyright", "ruff", "lua-language-server" }
 
 vim.lsp.config("basedpyright", {
   settings = {
