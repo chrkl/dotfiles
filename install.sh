@@ -32,6 +32,7 @@ ln -sf $HOME/dotfiles/.config/hunk $HOME/.config/
 ln -sf $HOME/dotfiles/.config/helix $HOME/.config/
 ln -sf $HOME/dotfiles/.config/zellij $HOME/.config/
 ln -sf $HOME/dotfiles/.config/herdr $HOME/.config/
+ln -sf $HOME/dotfiles/.config/ghostty $HOME/.config/
 
 $HOME/.fzf/install --all
 
