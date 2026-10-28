@@ -42,7 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 theme = light:Nord Light,dark:Nord
-#macos-titlebar-style = tabs
+macos-titlebar-style = tabs
 window-inherit-working-directory = true
 working-directory = home
 window-padding-x = 10
